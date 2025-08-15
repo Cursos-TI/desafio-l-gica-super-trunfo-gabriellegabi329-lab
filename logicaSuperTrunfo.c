@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main() {
 
+int main() {
   // Definição das variáveis para a carta 1
-  char estado1 = 'A'; 
+  char estado1 = 'A';
   int cidade1 = 1;
   int populacao1 = 132250, pontos_turisticos1 = 10;
   float area1 = 1200.1, pib1 = 45.75;
@@ -18,7 +18,7 @@ int main() {
   printf("Estado (A-H): ");
   scanf(" %c", &estado1);
   printf("Cidade (1-4): ");
-  scanf(" %d", &cidade1);
+  scanf("%d", &cidade1);
   printf("População: ");
   scanf("%d", &populacao1);
   printf("Área (km²): ");
@@ -33,7 +33,7 @@ int main() {
   printf("Estado (A-H): ");
   scanf(" %c", &estado2);
   printf("Cidade (1-4): ");
-  scanf(" %d", &cidade2);
+  scanf("%d", &cidade2);
   printf("População: ");
   scanf("%d", &populacao2);
   printf("Área (km²): ");
@@ -43,7 +43,7 @@ int main() {
   printf("Número de Pontos Turísticos: ");
   scanf("%d", &pontos_turisticos2);
 
-  // Comparação de Cartas:
+ // Comparação de Cartas:
   char estadoVencedor;
   int cidadeVencedora;
   
